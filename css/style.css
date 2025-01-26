@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    align-items: stretch;
+    background-color: #f078be;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .navlinks{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    background-color: red;
+    
+}
+
+.navbar .navlinks a{
+    text-decoration: none;
+}
