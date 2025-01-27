@@ -1,23 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;    
+    
+
+}
+
+
+body{
+    font-family: "Fragment Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f3feff;
+    color: #001717;
+}
+
+
+
 .navbar{
     display: flex;
-    align-items: stretch;
-    background-color: #f078be;
+    background-color: #0debfe;
     align-items: center;
-    gap: 1rem;
+    gap: 50px;
+    padding: 20px;
 }
 
 .navbar a {
     text-decoration: none;
+    color: #001717;
 }
+
+.navbar a:hover , .navbar .navlinks a:hover{
+    text-decoration: underline;
+    transition: black 0.3s ease-out;
+    color: white;
+
+
+}
+
 
 .navbar .navlinks{
     list-style-type: none;
     display: flex;
     gap: 50px;
-    background-color: red;
+    
+   
     
 }
 
 .navbar .navlinks a{
     text-decoration: none;
+}
+
+.navbar .contactButton{
+    margin-left: 25em;
+    
+  
 }
